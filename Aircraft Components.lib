@@ -1,0 +1,44 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Alternator(Generic)
+#
+DEF Alternator(Generic) G 0 40 Y Y 1 F N
+F0 "G" 0 950 50 H V C CNN
+F1 "Alternator(Generic)" 0 -800 50 H V C CNN
+F2 "" 0 950 50 H I C CNN
+F3 "" 0 950 50 H I C CNN
+DRAW
+C 0 0 250 0 1 0 N
+X FIELD 1 -350 0 100 R 50 50 1 1 U
+X B 2 0 -350 100 U 50 50 1 1 U
+X GND 3 350 0 100 L 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+# Contactor(Generic)
+#
+DEF Contactor(Generic) K 0 40 Y Y 1 F N
+F0 "K" 0 1750 50 H V C CNN
+F1 "Contactor(Generic)" 50 -1300 50 H V C CNN
+F2 "" 0 1750 50 H I C CNN
+F3 "" 0 1750 50 H I C CNN
+DRAW
+A -10 -155 25 -899 899 0 1 0 N -10 -180 -10 -130
+A -10 -105 25 -899 899 0 1 0 N -10 -130 -10 -80
+A -10 -55 25 -899 899 0 1 0 N -10 -80 -10 -30
+C -80 60 20 0 1 0 N
+C 80 60 20 0 1 0 N
+S -90 20 90 -230 0 1 0 N
+P 2 0 1 0 -90 100 90 100 N
+P 2 0 1 0 -10 -180 -90 -180 N
+P 2 0 1 0 -10 -30 -90 -30 N
+P 2 0 1 0 0 100 0 150 N
+X ~ 1 -200 60 100 R 50 50 1 1 U
+X ~ 2 200 60 100 L 50 50 1 1 U
+X ~ 3 -190 -30 100 R 50 50 1 1 U
+X ~ 4 -190 -180 100 R 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+#End Library
