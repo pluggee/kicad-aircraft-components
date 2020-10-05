@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GAD27
+D Electronic Adapter Unit
+$ENDCMP
+#
+$CMP GAD29B
+D PMA Compact GPS/Navigation Data Interface Adapter
+$ENDCMP
+#
+$CMP GDU460
+D Garmin G3X Touch 10" Display
+$ENDCMP
+#
+$CMP GEA24
+D Garmin GEA 24 Engine Indication System (EIS)
+$ENDCMP
+#
+#End Doc Library
