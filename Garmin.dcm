@@ -16,4 +16,24 @@ $CMP GEA24
 D Garmin GEA 24 Engine Indication System (EIS)
 $ENDCMP
 #
+$CMP GMC507
+D Automatic Flight Control System (AFCS)
+$ENDCMP
+#
+$CMP GMU11
+D Magnetometer
+$ENDCMP
+#
+$CMP GNX375
+D GPS Navigator and ADS-B Out/In Transponder
+$ENDCMP
+#
+$CMP GSA28
+D Smart Autopilot Servo
+$ENDCMP
+#
+$CMP GSU25
+D Air Data Attitude Heading Reference System (ADAHRS)
+$ENDCMP
+#
 #End Doc Library
